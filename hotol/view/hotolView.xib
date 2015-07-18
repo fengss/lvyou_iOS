@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="hotolView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.44999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wm-Bw-YN5">
+                    <rect key="frame" x="15" y="40" width="345" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotolcell.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xg3-0d-mrS">
+                            <rect key="frame" x="20" y="5" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="HbS-3e-LhH"/>
+                                <constraint firstAttribute="width" constant="15" id="gDq-Uh-ZTd"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 城市" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00L-OO-CA3">
+                            <rect key="frame" x="15" y="24" width="40" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="Nl8-BN-Phy"/>
+                                <constraint firstAttribute="width" constant="40" id="qvl-3G-ffz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="上海" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="n0V-SV-bdr">
+                            <rect key="frame" x="53" y="8" width="252" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Yzy-re-or7"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Xg3-0d-mrS" firstAttribute="top" secondItem="4wm-Bw-YN5" secondAttribute="top" constant="5" id="8BY-nW-SAd"/>
+                        <constraint firstAttribute="height" constant="40" id="9IL-zc-UhH"/>
+                        <constraint firstItem="n0V-SV-bdr" firstAttribute="leading" secondItem="Xg3-0d-mrS" secondAttribute="trailing" constant="18" id="LOa-Vc-6tZ"/>
+                        <constraint firstAttribute="trailing" secondItem="n0V-SV-bdr" secondAttribute="trailing" constant="40" id="Raz-43-1NQ"/>
+                        <constraint firstItem="Xg3-0d-mrS" firstAttribute="leading" secondItem="4wm-Bw-YN5" secondAttribute="leading" constant="20" id="ZNM-e2-bNx"/>
+                        <constraint firstItem="n0V-SV-bdr" firstAttribute="top" secondItem="4wm-Bw-YN5" secondAttribute="top" constant="8" id="b2y-qJ-3fb"/>
+                        <constraint firstItem="00L-OO-CA3" firstAttribute="leading" secondItem="4wm-Bw-YN5" secondAttribute="leading" constant="15" id="spz-Vv-KAG"/>
+                        <constraint firstItem="00L-OO-CA3" firstAttribute="top" secondItem="4wm-Bw-YN5" secondAttribute="top" constant="24" id="u2o-sB-409"/>
+                    </constraints>
+                </view>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aWB-u9-Q7Y">
+                    <rect key="frame" x="15" y="100" width="345" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotolcell2.png" translatesAutoresizingMaskIntoConstraints="NO" id="kB9-Ua-e5U">
+                            <rect key="frame" x="20" y="5" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="Qeg-WJ-Rns"/>
+                                <constraint firstAttribute="width" constant="15" id="gfD-jW-v1y"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dl0-jx-yBC">
+                            <rect key="frame" x="15" y="23" width="42" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="FPS-Lh-mMU"/>
+                                <constraint firstAttribute="width" constant="42" id="wMo-60-jBZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2015-1-2" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="La6-b2-GGa">
+                            <rect key="frame" x="58" y="5" width="247" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Sa8-8H-OCU"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Dl0-jx-yBC" firstAttribute="top" secondItem="aWB-u9-Q7Y" secondAttribute="top" constant="23" id="75f-N0-MPw"/>
+                        <constraint firstItem="Dl0-jx-yBC" firstAttribute="leading" secondItem="aWB-u9-Q7Y" secondAttribute="leading" constant="15" id="K4r-wW-DbL"/>
+                        <constraint firstAttribute="height" constant="40" id="M8O-CP-9ka"/>
+                        <constraint firstAttribute="trailing" secondItem="La6-b2-GGa" secondAttribute="trailing" constant="40" id="Oxf-sG-jaJ"/>
+                        <constraint firstItem="kB9-Ua-e5U" firstAttribute="leading" secondItem="aWB-u9-Q7Y" secondAttribute="leading" constant="20" id="nh9-Hv-I1w"/>
+                        <constraint firstItem="La6-b2-GGa" firstAttribute="top" secondItem="aWB-u9-Q7Y" secondAttribute="top" constant="5" id="plO-EK-UFA"/>
+                        <constraint firstItem="La6-b2-GGa" firstAttribute="leading" secondItem="Dl0-jx-yBC" secondAttribute="trailing" constant="1" id="thk-OJ-Ubl"/>
+                        <constraint firstItem="kB9-Ua-e5U" firstAttribute="top" secondItem="aWB-u9-Q7Y" secondAttribute="top" constant="5" id="vIf-kT-72E"/>
+                    </constraints>
+                </view>
+                <view alpha="0.49999999999999961" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3a-gf-joK">
+                    <rect key="frame" x="15" y="160" width="345" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotolcell3.png" translatesAutoresizingMaskIntoConstraints="NO" id="PnY-J9-XMO">
+                            <rect key="frame" x="20" y="6" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="7jR-Fc-QBl"/>
+                                <constraint firstAttribute="height" constant="15" id="Vyu-bv-wGx"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7r4-m6-lHL">
+                            <rect key="frame" x="15" y="23" width="42" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="ZOo-mx-M6x"/>
+                                <constraint firstAttribute="height" constant="15" id="rPK-LA-kCz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="价格不限" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zpF-GM-mbT">
+                            <rect key="frame" x="58" y="5" width="247" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="nnW-Hq-YrR"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstItem="zpF-GM-mbT" firstAttribute="top" secondItem="p3a-gf-joK" secondAttribute="top" constant="5" id="6Oq-x8-yvn"/>
+                        <constraint firstAttribute="trailing" secondItem="zpF-GM-mbT" secondAttribute="trailing" constant="40" id="CRr-zL-Jxa"/>
+                        <constraint firstItem="PnY-J9-XMO" firstAttribute="leading" secondItem="p3a-gf-joK" secondAttribute="leading" constant="20" id="OeO-C9-bO0"/>
+                        <constraint firstItem="zpF-GM-mbT" firstAttribute="leading" secondItem="7r4-m6-lHL" secondAttribute="trailing" constant="1" id="RLR-wM-Z6c"/>
+                        <constraint firstItem="7r4-m6-lHL" firstAttribute="leading" secondItem="p3a-gf-joK" secondAttribute="leading" constant="15" id="Xgh-qV-0Nj"/>
+                        <constraint firstItem="7r4-m6-lHL" firstAttribute="top" secondItem="p3a-gf-joK" secondAttribute="top" constant="23" id="daL-UY-eNj"/>
+                        <constraint firstItem="PnY-J9-XMO" firstAttribute="top" secondItem="p3a-gf-joK" secondAttribute="top" constant="6" id="xnb-IS-vXK"/>
+                        <constraint firstAttribute="height" constant="40" id="yeH-d3-L5A"/>
+                    </constraints>
+                </view>
+                <view alpha="0.49999999999999961" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kof-So-6gE">
+                    <rect key="frame" x="15" y="220" width="345" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotolcell4.png" translatesAutoresizingMaskIntoConstraints="NO" id="o6w-cw-Brx">
+                            <rect key="frame" x="20" y="5" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="Amm-T2-OHb"/>
+                                <constraint firstAttribute="height" constant="15" id="ZTH-w8-vTH"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关键字" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vr8-AH-chp">
+                            <rect key="frame" x="15" y="23" width="42" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="78O-gH-r0p"/>
+                                <constraint firstAttribute="height" constant="15" id="X2I-ly-Gey"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="酒店名称" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="CSD-Ss-V2e">
+                            <rect key="frame" x="62" y="5" width="243" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="LxN-gS-eeT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstItem="vr8-AH-chp" firstAttribute="leading" secondItem="kof-So-6gE" secondAttribute="leading" constant="15" id="FSK-6O-lqd"/>
+                        <constraint firstItem="vr8-AH-chp" firstAttribute="top" secondItem="kof-So-6gE" secondAttribute="top" constant="23" id="Jkt-7R-MwW"/>
+                        <constraint firstAttribute="height" constant="40" id="KsB-gy-4Ln"/>
+                        <constraint firstItem="CSD-Ss-V2e" firstAttribute="leading" secondItem="vr8-AH-chp" secondAttribute="trailing" constant="5" id="bh2-KI-akW"/>
+                        <constraint firstItem="o6w-cw-Brx" firstAttribute="top" secondItem="kof-So-6gE" secondAttribute="top" constant="5" id="kah-uE-V2y"/>
+                        <constraint firstItem="o6w-cw-Brx" firstAttribute="leading" secondItem="kof-So-6gE" secondAttribute="leading" constant="20" id="kkM-Ls-oBk"/>
+                        <constraint firstAttribute="trailing" secondItem="CSD-Ss-V2e" secondAttribute="trailing" constant="40" id="m6s-QP-r3b"/>
+                        <constraint firstItem="CSD-Ss-V2e" firstAttribute="top" secondItem="kof-So-6gE" secondAttribute="top" constant="5" id="n3C-yQ-Fww"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q8-UE-3CY">
+                    <rect key="frame" x="150" y="320" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="LUf-9v-oD6"/>
+                        <constraint firstAttribute="height" constant="50" id="P9A-eh-iVU"/>
+                    </constraints>
+                    <state key="normal" image="routeSearchBtn.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="commitClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Gel-mu-yHq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kof-So-6gE" secondAttribute="trailing" constant="15" id="A4M-Qd-74T"/>
+                <constraint firstItem="aWB-u9-Q7Y" firstAttribute="top" secondItem="4wm-Bw-YN5" secondAttribute="bottom" constant="20" id="EA5-Wn-zzS"/>
+                <constraint firstItem="p3a-gf-joK" firstAttribute="top" secondItem="aWB-u9-Q7Y" secondAttribute="bottom" constant="20" id="Epu-XM-uk6"/>
+                <constraint firstItem="aWB-u9-Q7Y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="NGZ-ma-g6d"/>
+                <constraint firstItem="kof-So-6gE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="WJa-Rx-ujl"/>
+                <constraint firstItem="p3a-gf-joK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="XJj-eE-E6S"/>
+                <constraint firstItem="4wm-Bw-YN5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="djC-t4-dTP"/>
+                <constraint firstItem="7Q8-UE-3CY" firstAttribute="top" secondItem="kof-So-6gE" secondAttribute="bottom" constant="60" id="e6s-dg-9zS"/>
+                <constraint firstItem="7Q8-UE-3CY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="150" id="ewt-sG-rge"/>
+                <constraint firstAttribute="trailing" secondItem="4wm-Bw-YN5" secondAttribute="trailing" constant="15" id="fcs-KL-TZK"/>
+                <constraint firstItem="4wm-Bw-YN5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="juG-Jr-e6v"/>
+                <constraint firstItem="kof-So-6gE" firstAttribute="top" secondItem="p3a-gf-joK" secondAttribute="bottom" constant="20" id="xC2-rm-WiX"/>
+                <constraint firstAttribute="trailing" secondItem="p3a-gf-joK" secondAttribute="trailing" constant="15" id="zX7-hC-wtE"/>
+                <constraint firstAttribute="trailing" secondItem="aWB-u9-Q7Y" secondAttribute="trailing" constant="15" id="zam-w7-C4W"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="area" destination="4wm-Bw-YN5" id="8g2-3R-p9q"/>
+                <outlet property="areaContent" destination="n0V-SV-bdr" id="9Aw-Lv-rGS"/>
+                <outlet property="commit" destination="7Q8-UE-3CY" id="ocW-jW-hKe"/>
+                <outlet property="dateContent" destination="La6-b2-GGa" id="6VR-2M-KR3"/>
+                <outlet property="hotolContent" destination="CSD-Ss-V2e" id="jeR-iA-aOH"/>
+                <outlet property="hotolName" destination="kof-So-6gE" id="rW7-fj-S1O"/>
+                <outlet property="price" destination="p3a-gf-joK" id="Jel-rK-mbR"/>
+                <outlet property="priceContent" destination="zpF-GM-mbT" id="SlO-68-YFi"/>
+                <outlet property="time" destination="aWB-u9-Q7Y" id="UXM-DR-cax"/>
+            </connections>
+            <point key="canvasLocation" x="116.5" y="123.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hotolcell.png" width="30" height="30"/>
+        <image name="hotolcell2.png" width="30" height="30"/>
+        <image name="hotolcell3.png" width="30" height="30"/>
+        <image name="hotolcell4.png" width="30" height="30"/>
+        <image name="routeSearchBtn.png" width="84" height="84"/>
+    </resources>
+</document>

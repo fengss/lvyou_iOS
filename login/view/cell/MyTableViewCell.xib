@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="cellid" selectionStyle="default" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="MyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="7天酒店.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0or-V8-cpW">
+                        <rect key="frame" x="13" y="11" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="V4T-0L-w2A"/>
+                            <constraint firstAttribute="height" constant="22" id="dXa-lp-eVf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的订单" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2Z-a1-6dJ">
+                        <rect key="frame" x="42" y="14" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="vIO-3i-oEF"/>
+                            <constraint firstAttribute="width" constant="100" id="zUv-lR-xaG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v2Z-a1-6dJ" firstAttribute="leading" secondItem="0or-V8-cpW" secondAttribute="trailing" constant="7" id="GTq-eH-5vz"/>
+                    <constraint firstItem="0or-V8-cpW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="UH0-h6-Cm5"/>
+                    <constraint firstItem="v2Z-a1-6dJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="gt0-T0-yGX"/>
+                    <constraint firstItem="0or-V8-cpW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="h5a-ar-oCA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headimage" destination="0or-V8-cpW" id="PJS-VS-fb0"/>
+                <outlet property="secname" destination="v2Z-a1-6dJ" id="PQs-Rw-drF"/>
+            </connections>
+            <point key="canvasLocation" x="216.5" y="273"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="7天酒店.jpg" width="180" height="120"/>
+    </resources>
+</document>
