@@ -37,7 +37,7 @@
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_3.jpg?raw=true)<br/>
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_4.jpg?raw=true)<br/>
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_5.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_6.jpg?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/wen_6.jpg?raw=true)<br/>
 
 ##IOS
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/1.png?raw=true)<br/>
