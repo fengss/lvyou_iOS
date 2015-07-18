@@ -28,7 +28,7 @@
 
 ##WEB
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_1.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_2.jpg?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_2.png?raw=true)<br/>
 
 当系统获取新的一层url将再去执行这些url抓取内容和链接，新的链接一旦新增入库，<br/>
 将又从这些新增入库的url链接再去执行内容抓取！<br/>
@@ -40,14 +40,14 @@
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_6.jpg?raw=true)<br/>
 
 ##IOS
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/1.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/2.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/3.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/4.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/5.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/6.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/7.jpg?raw=true)<br/>
-![image](https://github.com/fengss/lvyou_iOS/blob/master/img/8.jpg?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/1.png?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/2.png?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/3.png?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/4.png?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/5.png?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/6.png?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/7.png?raw=true)<br/>
+![image](https://github.com/fengss/lvyou_iOS/blob/master/img/8.png?raw=true)<br/>
 
 ##Adnroid
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/android_1.jpg?raw=true)<br/>
