@@ -1,14 +1,6 @@
 # lvyou_iOS
+
 感想来自学生时代的时候做了大学生时代web作品之一     
-
-弗兰迪维（php&amp;android&amp;ios）  
-
-浙江省第九届大学生电子商务竞赛 参赛作品  浙江省浙大网新服务外包大赛 参赛作品 
-
-只好还做了一个app(Ios Android)，
-
-为配合第二个服务外包大赛的旅游管理功能
-
 
 系统之初考虑采用Splider技术，它是搜索引擎进行互联网数据采集的核心系统，它现值入一个url地址，<br/>
 再通过这个url地中页面上所有的内容进行筛选入库，其中在此页面上的url进行二次入库，<br/>
@@ -26,7 +18,8 @@
 所以关于获取内容的正则匹配不便于公开展示！<br/>
 但是原理如上所属的获取从html内容中的url相同！<br/>
 
-##WEB
+## WEB
+
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_1.jpg?raw=true)<br/>
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_2.png?raw=true)<br/>
 
@@ -39,7 +32,8 @@
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/web_5.jpg?raw=true)<br/>
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/wen_6.jpg?raw=true)<br/>
 
-##IOS
+## IOS
+
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/1.png?raw=true)<br/>
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/2.png?raw=true)<br/>
 ![image](https://github.com/fengss/lvyou_iOS/blob/master/img/3.png?raw=true)<br/>
